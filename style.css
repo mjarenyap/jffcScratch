@@ -1,0 +1,253 @@
+/*
+ *      JFFC WEB DESIGN STYLESHEET
+ *      
+ *      Welcome to the Web Design class, guys! I'm thankful you could be with us today.
+ *      This is the stylesheet we'll be using for the entire session and below are the
+ *      codes to be utilized later as we go on with the demo. You guys can look at the
+ *      content of this file and see how it is structured but please DO NOT MODIFY any
+ *      line of the codes! Once the class has been dismissed, only then are you free to
+ *      add your style to it.
+ *      
+ *      If you have any questions or you want to learn something more, just leave a
+ *      message in my email. Please introduce yourselves so that I may be informed and
+ *      I'll try to respond to your queries as soon as I can.
+ *      
+ *      Email: mjaren.yap@gmail.com
+ *      
+ *      A big thanks, once again, for joining the Web Design Class!
+ *  
+ */
+
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: "Source Sans Pro", sans-serif;
+	color: #8e8e8e;
+}
+
+html{
+	margin-top: 53.5px;
+}
+
+a{
+	color: #98d2ff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+h1, h2{
+	font-weight: 300;
+	color: black;
+}
+
+h3, h4, h5, h6{
+	font-weight: 400;
+	color: black;
+	margin-bottom: 0.3em;
+}
+
+p{
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+header, footer, section{
+	padding: 4em 10%;
+}
+
+button{
+	padding: 0.7em 1.2em;
+	background-color: #2b9af2;
+	border: thin solid #2b9af2;
+	border-radius: 3px;
+	color: white;
+	font-family: "source sans pro", sans-serif;
+	cursor: pointer;
+	font-weight: 300;
+	transition: all 0.3s ease;
+}
+
+button.hallow{
+	padding: 1.2em 1.5em;
+	color: #2b9af2;
+	border-color: #94d0ff;
+	font-size: 0.9em;
+	font-weight: 400;
+	background-color: transparent;
+	transition: all 0.3s ease;
+}
+
+button.hallow:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+nav{
+	position:fixed;
+	top: 0;
+	padding: 0 10%;
+	background-color: rgba(255, 255, 255, 0.95);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+#logo img{
+	width: 6em;
+}
+
+#logo{
+	margin-left: 0;
+}
+
+#icon-nav li img{
+	width: 1.5em;
+	opacity: 0.3;
+	transition: all 0.3s ease;
+}
+
+#icon-nav li img:hover{
+	opacity: 1;
+	transition: all 0.3s ease;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+nav ul#menu li:nth-child(1):hover{
+	border-color: transparent;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 1em 0;
+	margin: 0 1.5em;
+	text-align: center;
+	cursor: pointer;
+	border-bottom: 2px solid transparent;
+	font-weight: 400;
+	font-size: 0.9em;
+	transition: all 0.3s ease;
+}
+
+nav ul#menu li:hover{
+	color: black;
+	border-bottom: 2px solid black;
+	transition: all 0.3s ease;
+}
+
+#icon-nav li{
+	margin: 0 0.9em;
+}
+
+header{
+	background-color: #f0f2f3;
+	padding-bottom: 0;
+}
+
+#tagline{
+	color: black;
+	font-size: 3em;
+	margin: 0.5em auto;
+	text-align: center;
+	max-width: 85%;
+}
+
+#cta{
+	font-size: 1.25em;
+	text-align: center;
+	display: block;
+	margin: 1em auto;
+}
+
+#other{
+	text-align: center;
+	font-size: 0.73em;
+	display: block;
+	margin-bottom: 5em;
+	color: #2b9af2;
+}
+
+#hero-image{
+	display: block;
+	margin: 0 auto;
+	width: 93%;
+}
+
+#description{
+	font-size: 1.7em;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+#more-features-section{
+	background-color: #dee9f1;
+}
+
+#more-features-section h3{
+	font-size: 1.5em;
+	font-weight: lighter;
+	margin-bottom: 1.5em;
+}
+
+.three-column-content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.three-column-content > div{
+	width: 32%;
+}
+
+.three-column-content > div:nth-child(2){
+	margin: 0 5em;
+}
+
+#more-features-section > div > div:nth-child(2) h4,
+#more-features-section > div > div:nth-child(3) h4{
+	color: #2b9af2;
+	cursor: pointer;
+}
+
+footer{
+	background-color: #13181b;
+}
+
+footer h5{
+	color: white;
+	font-weight: 300;
+	margin-bottom: 0.8em;
+}
+
+footer ul{
+	margin: 0;
+}
+
+footer ul li{
+	color: #98d2ff;
+	line-height: 1.8em;
+	font-size: 0.85em;
+}
+
+footer > div.four-column-content > div{
+	margin-right: 5em;
+}
+
+.four-column-content{
+	display: flex;
+	justify-content: flex-start;
+}
+
+#footnote{
+	font-size: 0.8em;
+	text-align: center;
+	width: 60%;
+	margin: 4em auto;
+	margin-top: 7em;
+}
